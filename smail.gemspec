@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name          = "smail"
-  s.version       = "0.0.4"
+  s.version       = "0.0.5"
   s.author        = "Matthew Walker"
   s.email         = "matthew@walker.wattle.id.au"
-  s.homepage      = "http://github.com/mwalker/smail"
+  s.homepage      = "http://gemcutter.org/gems/smail"
   s.summary       = "A simple RFC2822 email parser"
   s.files         = ["lib/smail.rb", "lib/smail/header.rb", "lib/smail/parser.rb", "lib/smail/smail.rb", "lib/smail/version.rb"]
   s.require_path  = "lib"

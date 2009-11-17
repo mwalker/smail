@@ -9,8 +9,8 @@ private
 
   def split_head_from_body(text)
     # The body is a sequence of characters after the header separated by an empty line
-    if text =~ /(.*?(#{PATTERN_CRLF}))\2(.*)/m
-      return $1, $3 || '', $2
+    if text =~ /(.*?(#{PATTERN_CRLF}))\2/m
+      return $1, $' || '', $2
     else  # The body is, of course, optional.
       return text, "", "\r\n"
     end
